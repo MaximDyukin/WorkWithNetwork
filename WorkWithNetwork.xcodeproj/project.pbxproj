@@ -56,15 +56,47 @@
 		EE07C7A1270086A10027FA2F /* WorkWithNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				EE07C7A2270086A10027FA2F /* AppDelegate.swift */,
-				EE07C7A4270086A10027FA2F /* SceneDelegate.swift */,
-				EE07C7A6270086A10027FA2F /* ViewController.swift */,
-				EE07C7A8270086A10027FA2F /* Main.storyboard */,
-				EE07C7AB270086A10027FA2F /* Assets.xcassets */,
-				EE07C7AD270086A10027FA2F /* LaunchScreen.storyboard */,
-				EE07C7B0270086A10027FA2F /* Info.plist */,
+				EE07C7B92700877D0027FA2F /* ViewControllers */,
+				EE07C7B8270087490027FA2F /* Storyboards */,
+				EE07C7B6270086C90027FA2F /* App */,
+				EE07C7B7270086FF0027FA2F /* Resources */,
 			);
 			path = WorkWithNetwork;
+			sourceTree = "<group>";
+		};
+		EE07C7B6270086C90027FA2F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE07C7A2270086A10027FA2F /* AppDelegate.swift */,
+				EE07C7A4270086A10027FA2F /* SceneDelegate.swift */,
+				EE07C7B0270086A10027FA2F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE07C7B7270086FF0027FA2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE07C7AB270086A10027FA2F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE07C7B8270087490027FA2F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EE07C7A8270086A10027FA2F /* Main.storyboard */,
+				EE07C7AD270086A10027FA2F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EE07C7B92700877D0027FA2F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE07C7A6270086A10027FA2F /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W783WY8SJ8;
-				INFOPLIST_FILE = WorkWithNetwork/Info.plist;
+				INFOPLIST_FILE = WorkWithNetwork/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MaxDuke.WorkWithNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W783WY8SJ8;
-				INFOPLIST_FILE = WorkWithNetwork/Info.plist;
+				INFOPLIST_FILE = WorkWithNetwork/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MaxDuke.WorkWithNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
